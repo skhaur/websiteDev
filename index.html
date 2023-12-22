@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" 
+    href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" 
+    rel="stylesheet">
+    <script src="https://kit.fontawesome.com/acfff6cc93.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <section class="header">
+        <nav>
+           <a href="index.html"><img src="images/logo3.png"></a>
+           <div class="nav-links" id="navLinks">
+            <i class="fa-sharp fa-solid fa-xmark" onclick="hideMenu()"></i>
+              <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">CONTACT</a></li>
+              </ul>
+           </div>
+           <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>Preet Kaur</h1>
+        <p>Real Estate Broker<br>Century 21 Royaltors Realty Brokerage
+        </p>
+        <div class="p1-container">
+            <p1>
+                "Every property is unique, and so is every client. 
+            As a real estate agent, it's my job to listen to your needs, 
+            understand your vision, and help you find the property that 
+            fits your life. <br>Let's work together to find your dream home."
+            </p1>
+        </div>
+        <a href="" class="hero-btn">Get in Touch</a>
+    </div>
+
+    </section>
+
+    <!---- listings in works---->
+
+    <section class="listings">
+        <h1>Featured Listings</h1>
+        <p>sdjnvkdjsnfkjdshfjkdfjkdsfndjksnfjkdn</p>
+
+        <div class = "row">
+            <div class = "course-col">
+                <h3>100 Rug crescent</h3>
+                <img src="images/house1.png"
+                  width = "300"
+                  height = "250">
+                <p>djsnjsdknfjkdsnfjkdnfjkdfn</p>
+            </div>
+            <div class = "course-col">
+                <h3>200 doon dr</h3>
+                <img src="images/house2.png"
+                  width = "300"
+                  height = "250">
+                <p>djsnjsdknfjkdsnfjkdnfjkdfn</p>
+            </div>
+            <div class = "course-col">
+                <h3>76 sip dr</h3>
+                <img src="images/house3.png"
+                  width = "300"
+                  height = "250">
+                <p>4 beds, 5 baths, </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!----testimonials----->
+    
+    <section class="testimonials">
+        <h1>What my Clients say</h1>
+        <p>sndfjkdshfjfjnfjdsfnjdfjfbjdsbfjsdfb</p>
+
+        <div class = "row">
+            <div class = "testimonial-col">
+                <img src="images/imageuser1.jpeg">
+                <div>
+                    <p> dfhdishfiusdhfiushfiusdhfdushfudsfhusdfhsudhfjdsh
+                        lkjdfksdfkfjnsdkfhksdjfhjkfhkfhd
+                    </p>
+                    <h3>Chris Nor</h3>
+                </div>
+            </div>
+        <div class = "row">
+            <div class = "testimonial-col">
+                <img src="images/imageuser1.jpeg">
+                <div>
+                    <p> dfhdishfiusdhfiushfiusdhfdushfudsfhusdfhsudhfjdsh
+                        sfidsjfhjdkshfjdfhjsdfhsdjklfhsdkfhds
+                    </p>
+                    <h3>Linda</h3>
+                </div>
+            </div>
+        </div>
+
+
+        
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------JavaScript for toggling the menu, 0 = on screen, -200 = moved off scren, slides by touch
+    referenced showMenu and hideMenu as onClick in icons above before list and after list------>
+<script>
+    var navLinks = document.getElementById("navLinks"); 
+    function showMenu() {
+        navLinks.style.right = "0";  
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+    
+</body>
+</html>
+
+
+
+
