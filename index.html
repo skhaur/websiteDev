@@ -6,18 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Real Estate Website</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" 
-    href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" 
-    rel="stylesheet">
-    <script src="https://kit.fontawesome.com/acfff6cc93.js" crossorigin="anonymous"></script>
     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300&display=swap" rel="stylesheet">
+    
+    
+    <script src="https://kit.fontawesome.com/acfff6cc93.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <section class="header">
         <nav>
            <a href="index.html"><img src="images/logo3.png"></a>
            <div class="nav-links" id="navLinks">
-            <i class="fa-sharp fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <i class="far fa-xmark" onclick="hideMenu()"></i>
               <ul>
                 <li><a href="">HOME</a></li>
                 <li><a href="">ABOUT</a></li>
@@ -31,81 +34,112 @@
         <h1>Preet Kaur</h1>
         <p>Real Estate Broker<br>Century 21 Royaltors Realty Brokerage
         </p>
-        <div class="p1-container">
+      <!--- <div class="p1-container">
             <p1>
-                "Every property is unique, and so is every client. 
-            As a real estate agent, it's my job to listen to your needs, 
-            understand your vision, and help you find the property that 
-            fits your life. <br>Let's work together to find your dream home."
+                Every property is unique, and so is every client. <br>
+            As a real estate agent, it's my job to listen to your needs, <br> 
+            understand your vision, and help you find the property that <br>
+            fits your life. 
+            <br> <br>Let's work together to find your dream home.
             </p1>
-        </div>
-        <a href="" class="hero-btn">Get in Touch</a>
+        </div>--->
     </div>
 
     </section>
 
-    <!---- listings in works---->
+    <!-- about page -->
+    <section class="about">
+        <div class="p1-container">
+            <h2>
+                About Me
+            </h2>
+            <p>
+                With a keen eye for detail and an unwavering commitment to her clients, Preet Kaur stands <br>out 
+                as a real estate broker who has been making homeowners' dreams a reality for <br>almost a decade.
+                Her approach is highly personalized, ensuring that each client's needs are not <br>just met 
+                but exceeded. Preet's extensive experience and deep understanding <br>of the real estate 
+                market have established her as a trusted advisor and advocate for buyers <br>and sellers alike. 
+                Whether you are looking for your first home, seeking to sell,<br>
+                 or aiming to invest, Preet is ready to pave the way for your success with her dedicated service.
+            </p>
+            <a href="" class="hero-btn">Get in Touch</a>
+        </div> 
+    </section>
 
-    <section class="listings">
-        <h1>Featured Listings</h1>
-        <p>sdjnvkdjsnfkjdshfjkdfjkdsfndjksnfjkdn</p>
-
-        <div class = "row">
-            <div class = "course-col">
-                <h3>100 Rug crescent</h3>
-                <img src="images/house1.png"
-                  width = "300"
-                  height = "250">
-                <p>djsnjsdknfjkdsnfjkdnfjkdfn</p>
+    <section class="carousel">
+        <div class="slideshow">
+            <div class="slideshow-text">
+                Unlock Your Dreams
             </div>
-            <div class = "course-col">
-                <h3>200 doon dr</h3>
-                <img src="images/house2.png"
-                  width = "300"
-                  height = "250">
-                <p>djsnjsdknfjkdsnfjkdnfjkdfn</p>
+            <div class="slideshow-text2">
+                <a href="https://www.c21.ca/search/#status=active&sold_days=180&pstatus=1%2C11&ls_conversion=acres&location_search_field=82%20Strabane%20Ave%2C%20Barrie%2C%20ON%20L4M%202A2%2C%20Canada&drive_time=09%3A00&drive_duration=15&drive_avoid_ferry=1&drive_departure=1&ss_locale=en-CA&ss_email_freq=40&ss_send_zero_result=1&bounds_north=44.43878417024548&bounds_east=-79.62810534362794&bounds_south=44.361393818454815&bounds_west=-79.70449465637208&center_lat=44.4001&center_lon=-79.6663&center_lat_pan=44.40010179010744&center_lon_pan=-79.6663&pgsize=20&startidx=0&zoom=13&sort_by=10&company_uuid=3341197&commute=0&buffer_miles=0&geospatial=true&ptype=1%2C2%2C3%2C4%2C5%2C7%2C9&searchType=criteria&omit_hidden=true&ex_pend=true&currency=CAD" target="_blank">View Current Listings</a>
             </div>
-            <div class = "course-col">
-                <h3>76 sip dr</h3>
-                <img src="images/house3.png"
-                  width = "300"
-                  height = "250">
-                <p>4 beds, 5 baths, </p>
+            <div class="slides">
+                <!-- Add your images as individual slides -->
+                <div class="slide"><img src="images/slideshow1.jpg" alt="Slide 1"></div>
+                <div class="slide"><img src="images/slideshow2.jpg" alt="Slide 2"></div>
+                <div class="slide"><img src="images/slideshow3.jpg" alt="Slide 3"></div>
+                <!-- Add more slides as needed -->
             </div>
         </div>
-
     </section>
+        <!-- services page -->
+        <section class="services">
+            <div class="services-container">
+                <h2>
+                    Services Offered
+                </h2>
+                <p>
+                    With a keen eye for detail and an unwavering commitment to her clients, Preet Kaur stands <br>out 
+                    as a real estate broker who has been making homeowners' dreams a reality for <br>almost a decade.
+                    Her approach is highly personalized, ensuring that each client's needs are not <br>just met 
+                    but exceeded. Preet's extensive experience and deep understanding <br>of the real estate 
+                    market have established her as a trusted advisor and advocate for buyers <br>and sellers alike. 
+                    Whether you are looking for your first home, seeking to sell,<br>
+                     or aiming to invest, Preet is ready to pave the way for your success with her dedicated service.
+                </p>
+                <a href="" class="hero-btn">Get in Touch</a>
+            </div> 
+        </section>
 
     <!----testimonials----->
     
     <section class="testimonials">
-        <h1>What my Clients say</h1>
-        <p>sndfjkdshfjfjnfjdsfnjdfjfbjdsbfjsdfb</p>
-
-        <div class = "row">
-            <div class = "testimonial-col">
-                <img src="images/imageuser1.jpeg">
-                <div>
-                    <p> dfhdishfiusdhfiushfiusdhfdushfudsfhusdfhsudhfjdsh
-                        lkjdfksdfkfjnsdkfhksdjfhjkfhkfhd
-                    </p>
-                    <h3>Chris Nor</h3>
+        <h1>What My Clients Say</h1>
+        <div class="carousel-container">
+            <!-- Carousel Wrapper -->
+            <div class="carousel-wrapper">
+                <!-- Individual Slide Item -->
+                <div class="carousel-item active">
+                    <h3>Christopher Tilamen</h3>
+                    <p>"Selling our home felt daunting, but Preet was a rockstar. 
+                        She was always there with a smile and sage advice, making 
+                        every step feel simple and secure."</p>
                 </div>
-            </div>
-        <div class = "row">
-            <div class = "testimonial-col">
-                <img src="images/imageuser1.jpeg">
-                <div>
-                    <p> dfhdishfiusdhfiushfiusdhfdushfudsfhusdfhsudhfjdsh
-                        sfidsjfhjdkshfjdfhjsdfhsdjklfhsdkfhds
-                    </p>
-                    <h3>Linda</h3>
+                <div class="carousel-item">
+                    <h3>Aubrey MacKenzie</h3>
+                    <p>"Big shoutout to Preet for guiding us through our first buy! 
+                        Her support felt like having a friend by our side, always 
+                        ready with advice and encouragement."</p>
                 </div>
+                <div class="carousel-item">
+                    <h3>Farhana Khan</h3>
+                    <p>"Preet is all about making connections, not just transactions. 
+                        She celebrated our wins as her own and made every step of the 
+                        journey feel personal and joyful."</p>
+                </div>
+                <div class="carousel-item">
+                    <h3>Anita Sandhu</h3>
+                    <p>"Working with Preet was great! She turned 
+                        what could have been an overwhelming process into a comfortable, 
+                        confident journey to find the perfect home. Can't thank her enough!"</p>
+                </div>
+                <!-- More slides can be added here -->
             </div>
+            <!-- Carousel Controls -->
+            <a href="#" class="carousel-control prev">&#10094;</a>
+            <a href="#" class="carousel-control next">&#10095;</a>
         </div>
-
-
-        
     </section>
 
 
@@ -126,17 +160,66 @@
 <script>
     var navLinks = document.getElementById("navLinks"); 
     function showMenu() {
-        navLinks.style.right = "0";  
+        navLinks.style.right = "+80px";  
     }
     function hideMenu() {
         navLinks.style.right = "-200px";
     }
 
+    let currentSlide = 0;
+    const slidesContainer = document.querySelector(".slides");
+    const slides = document.querySelectorAll(".slide");
+    const totalSlides = slides.length;
+
+    function nextSlide() {
+        currentSlide = (currentSlide + 1) % totalSlides;
+        updateSlidePosition();
+    }
+
+    function updateSlidePosition() {
+        const slideWidth = slides[0].clientWidth;
+        const newTransformValue = -1 * currentSlide * slideWidth;
+        slidesContainer.style.transform = `translateX(${newTransformValue}px)`;
+    }
+
+    // Automatically change slide every 3 seconds
+    setInterval(nextSlide, 3000);
+
+    // Initialize
+    window.onload = updateSlidePosition;
+
+    document.addEventListener('DOMContentLoaded', function () {
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.carousel-item');
+    const totalSlides = slides.length;
+
+    // Previous button event listener
+    document.querySelector('.prev').addEventListener('click', function (event) {
+        event.preventDefault(); // Prevent default anchor behavior
+        moveToSlide(currentSlide - 1);
+    });
+
+    // Next button event listener
+    document.querySelector('.next').addEventListener('click', function (event) {
+        event.preventDefault(); // Prevent default anchor behavior
+        moveToSlide(currentSlide + 1);
+    });
+
+    function moveToSlide(n) {
+        slides[currentSlide].classList.remove('active');
+        currentSlide = (n + totalSlides) % totalSlides;
+        slides[currentSlide].classList.add('active');
+    }
+});
+
 </script>
+
 
     
 </body>
 </html>
+
+<!---Javascript for the carousel-->
 
 
 
