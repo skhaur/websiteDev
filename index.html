@@ -16,16 +16,17 @@
 
 </head>
 <body>
-    <section class="header">
+    <section class="header" id="home">
         <nav>
-           <a href="index.html"><img src="images/logo3.png"></a>
+           <a href="https://royaltorsrealty.c21.ca"><img src="images/logo3.png"></a>
            <div class="nav-links" id="navLinks">
             <i class="far fa-xmark" onclick="hideMenu()"></i>
               <ul>
-                <li><a href="">HOME</a></li>
-                <li><a href="">ABOUT</a></li>
-                <li><a href="">BLOG</a></li>
-                <li><a href="">CONTACT</a></li>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#listings">LISTINGS</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#contact">CONTACT</a></li>
               </ul>
            </div>
            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
@@ -48,7 +49,7 @@
     </section>
 
     <!-- about page -->
-    <section class="about">
+    <section class="about" id="about">
         <div class="p1-container">
             <h2>
                 About Me
@@ -62,17 +63,17 @@
                 Whether you are looking for your first home, seeking to sell,<br>
                  or aiming to invest, Preet is ready to pave the way for your success with her dedicated service.
             </p>
-            <a href="" class="hero-btn">Get in Touch</a>
+            <a href="#contact" class="hero-btn">Get in Touch</a>
         </div> 
     </section>
 
-    <section class="carousel">
+    <section class="carousel" id="listings">
         <div class="slideshow">
             <div class="slideshow-text">
                 Unlock Your Dreams
             </div>
             <div class="slideshow-text2">
-                <a href="https://www.c21.ca/search/#status=active&sold_days=180&pstatus=1%2C11&ls_conversion=acres&location_search_field=82%20Strabane%20Ave%2C%20Barrie%2C%20ON%20L4M%202A2%2C%20Canada&drive_time=09%3A00&drive_duration=15&drive_avoid_ferry=1&drive_departure=1&ss_locale=en-CA&ss_email_freq=40&ss_send_zero_result=1&bounds_north=44.43878417024548&bounds_east=-79.62810534362794&bounds_south=44.361393818454815&bounds_west=-79.70449465637208&center_lat=44.4001&center_lon=-79.6663&center_lat_pan=44.40010179010744&center_lon_pan=-79.6663&pgsize=20&startidx=0&zoom=13&sort_by=10&company_uuid=3341197&commute=0&buffer_miles=0&geospatial=true&ptype=1%2C2%2C3%2C4%2C5%2C7%2C9&searchType=criteria&omit_hidden=true&ex_pend=true&currency=CAD" target="_blank">View Current Listings</a>
+                <a href="https://royaltorsrealty.c21.ca/search/#status=active&sold_days=180&pstatus=1%2C11&ls_conversion=acres&location_search_field=82%20Strabane%20Ave%2C%20Barrie%2C%20ON%20L4M%202A2%2C%20Canada&drive_time=09%3A00&drive_duration=15&drive_avoid_ferry=1&drive_departure=1&ss_locale=en-CA&ss_email_freq=40&ss_send_zero_result=1&bounds_north=44.444758958954814&bounds_east=-79.6342945409298&bounds_south=44.36737651580984&bounds_west=-79.70055583243371&center_lat=44.4001&center_lon=-79.6663&center_lat_pan=44.40608053319529&center_lon_pan=-79.66742518668175&pgsize=20&startidx=0&zoom=13&sort_by=10&company_uuid=3341197&commute=0&buffer_miles=0&geospatial=true&agent_uuid=3b12dfb7-234d-489c-8890-e96eef74bc70&ptype=1%2C2%2C3%2C4%2C5%2C7%2C9&searchType=criteria&omit_hidden=true&ex_pend=true&currency=CAD" target="_blank">View Current Listings</a>
             </div>
             <div class="slides">
                 <!-- Add your images as individual slides -->
@@ -83,24 +84,42 @@
             </div>
         </div>
     </section>
-        <!-- services page -->
-        <section class="services">
-            <div class="services-container">
-                <h2>
-                    Services Offered
-                </h2>
-                <p>
-                    With a keen eye for detail and an unwavering commitment to her clients, Preet Kaur stands <br>out 
-                    as a real estate broker who has been making homeowners' dreams a reality for <br>almost a decade.
-                    Her approach is highly personalized, ensuring that each client's needs are not <br>just met 
-                    but exceeded. Preet's extensive experience and deep understanding <br>of the real estate 
-                    market have established her as a trusted advisor and advocate for buyers <br>and sellers alike. 
-                    Whether you are looking for your first home, seeking to sell,<br>
-                     or aiming to invest, Preet is ready to pave the way for your success with her dedicated service.
+    <!-- services page -->
+    <section class="services" id="services">
+        <div class="services-container">
+            <h2>
+                Services Offered
+            </h2>
+            <div class = "service-row">
+                <div class="servslide"><img src="images/h1.jpeg" alt="service 1"></div>
+                <h3>Real Estate Guidance</h3>
+                <p>"I provide personalized guidance in both residential
+                    and commercial real estate to help you make informed 
+                    decisions. My expertise includes understanding market 
+                    trends, identifying investment opportunities, and navigating 
+                    complex transactions with ease."</p>
+            </div>
+            <div class = "service-row">
+                <div class="servslide"><img src="images/h2.jpeg" alt="service 2"></div>
+                <h3>Real Estate Purchasing</h3>
+                <p>"Finding the perfect family home or the ideal business
+                    space is my specialty. I offer comprehensive purchasing 
+                    services, ensuring a seamless process from start to finish.
+                    I focus on your preferences and budget to find a property 
+                    that suits all your needs."
                 </p>
-                <a href="" class="hero-btn">Get in Touch</a>
-            </div> 
-        </section>
+            </div>
+            <div class = "service-row">
+                <div class="servslide"><img src="images/h3.jpeg" alt="service 3"></div>
+                <h3>Real Estate Selling</h3>
+                <p>"Selling your property is more than just placing a 'For Sale' 
+                    sign. I employ tailored strategies to showcase your property's 
+                    unique features and make it stand out. You can rely on my dynamic 
+                    marketing and negotiation skills to get the best deal for your asset."</p>
+
+            </div>
+        </div> 
+    </section>
 
     <!----testimonials----->
     
@@ -137,8 +156,42 @@
                 <!-- More slides can be added here -->
             </div>
             <!-- Carousel Controls -->
-            <a href="#" class="carousel-control prev">&#10094;</a>
-            <a href="#" class="carousel-control next">&#10095;</a>
+            <a href="#" class="carousel-control prev">&#x27F5;</a>
+            <a href="#" class="carousel-control next">&#x27F6;</a>
+        </div>
+    </section>
+
+    <section class = "contactPage" id="contact">
+        <h5>Get In Touch</h5>
+        <div class="phone">
+
+            <h5>Email: preetkrealestate@gmail.com / Tel: 1+ 705-790-2969</h5>
+        </div>
+        <div class="contact-col">
+            
+            <form action="form-handler.php" method="post">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="email" name="email" placeholder="Enter your email address" required>
+                <input type="text" name="subject" placeholder="Enter your subject" required>
+                <textarea rows="8" name="message" placeholder="Message"></textarea>
+                <button type="submit" class="hero-btn">Send Message</button>
+            </form>
+
+        </div>
+
+
+
+    </section>
+
+    <section class = "footer">
+        <div class = "icons">
+            <a href="https://www.facebook.com/preetrealestate/" class = "fa fa-facebook"></a>
+            <i class = "fa fa-instagram"></i>
+        </div>
+        <div class = "copyright">
+            <p>
+                @ 2024 by Preet Kaur Real Estate. Powered by Sukhman Kaur.
+            </p>
         </div>
     </section>
 
@@ -211,6 +264,8 @@
         slides[currentSlide].classList.add('active');
     }
 });
+
+
 
 </script>
 
